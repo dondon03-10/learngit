@@ -38,7 +38,7 @@ Git is free software.
 
 使用 git branch 查看当前分支
 
-使用 git merge dev 将当前分支合并到master
+使用 git merge dev 将当前分支合并到master(需要切换到master上再使用，合并对象默认为当前所在分支)
 
 使用 git branch -d dev 删除分支
 
