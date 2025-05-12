@@ -43,3 +43,9 @@ Git is free software.
 使用 git branch -d dev 删除分支
 
 创建、合并和删除分支非常快。跟直接在master上工作一样，但是过程更安全
+
+
+标签管理：
+使用 git tag <name> 给一个分支打标签
+
+打上标签可以方便
