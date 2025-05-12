@@ -48,4 +48,4 @@ Git is free software.
 标签管理：
 使用 git tag <name> 给一个分支打标签
 
-打上标签可以方便
+打上标签可以方便管理各项目分支版本
