@@ -9,5 +9,3 @@ Git is free software.
 
 使用git commit -m <message>提交修改（-m：添加修改说明）
 例如：git commit -m "wrote a readme file"
-
-
