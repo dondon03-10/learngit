@@ -31,3 +31,11 @@ Git is free software.
 使用 git push -u origin master 将本地仓库的主支master发送到远程库上（-u是将本地主分支和远程的主分支直接关联起来）
 
 后续进行远程推送使用 git push origin master 即可
+
+分支管理：
+使用 git branch dev 创建分支
+使用 git checkout dev 切换分支
+
+
+
+创建、合并和删除分支非常快。跟直接在master上工作一样，但是过程更安全
