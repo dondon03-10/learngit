@@ -34,8 +34,12 @@ Git is free software.
 
 分支管理：
 使用 git branch dev 创建分支
-使用 git checkout dev 切换分支
+使用 git checkout dev 切换分支（git switch -c <name>也可以）
 
+使用 git branch 查看当前分支
 
+使用 git merge dev 将当前分支合并到master
+
+使用 git branch -d dev 删除分支
 
 创建、合并和删除分支非常快。跟直接在master上工作一样，但是过程更安全
