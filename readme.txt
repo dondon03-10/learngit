@@ -14,4 +14,10 @@ Git is free software.
 
 使用git diff顾名思义就是查看difference
 
+想要回退版本：
+使用 git log查看提交历史，确定要退回到哪个版本
+使用 git reset --hard HEAD~n（退回到n个版本前）
 
+想要重返未来：
+使用 git reflog查看命令历史，以便确定要回到未来哪个版本
+使用 git reset --hard commit_id(输入想回到的版本)
