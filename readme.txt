@@ -50,3 +50,6 @@ Git is free software.
 使用 git tag <name> 给一个分支打标签
 
 打上标签可以方便管理各项目分支版本
+
+
+使用git rebase -i HEAD~n 可以从最开始往后删n个版本，可以有助于减少git push上传量，或将敏感信息删除
