@@ -29,9 +29,9 @@ Git is free software.
 使用 git remote add origin git@github.com:dondon03-10/learngit.git（ssh）与本地库进行关联(远程库的名字叫origin)
  
 使用 git push -u origin master 将本地仓库的主支master发送到远程库上（-u是将本地主分支和远程的主分支直接关联起来）
-使用 git pull origin master 获取远程仓库的最新代码
-
 后续进行远程推送使用 git push origin master 即可
+
+使用 git pull origin master 获取远程仓库的最新代码
 
 分支管理：
 使用 git branch dev 创建分支
